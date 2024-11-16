@@ -1,0 +1,73 @@
+root@ip-172-31-20-148 ~]# history
+    1  clear
+    2  pwd
+    3  whoami
+    4  exit
+    5  clear
+    6  cd piit
+    7  cd /tmp
+    8  mkdir piit
+    9  cd piit
+   10  clear
+   11  ls
+   12  which nano
+   13  which passwd
+   14  which ls
+   15  which usereadd
+   16  which useradd
+   17  which nano
+   18  nano apple.txt
+   19  cd /
+   20  ls /tmp/piit
+   21  find /tmp/piit -name apple.txt
+   22  find /tmp -mtime -7
+   23  find /tmp -mtime -11
+   24  clear
+   25  find / -name apple*.*
+   26  find / -name apple*.txt
+   27  find / -name apple*.*
+   28  find / -name a*.txt
+   29  find / -name a*.txt > test.txt
+   30  cat test.txt
+   31  find / -type f -name "*.log"
+   32  find / -size +100m
+   33  find / -type f -cmin
+   34  find / -type f -cmin -60
+   35  ls -ll
+   36  cd /tmp/piit
+   37  ls
+   38  diff apple.txt orange.txt
+   39  nano orange.txt
+   40  diff apple.txt orange.txt
+   41  clear
+   42  file /etc/passwd
+   43  which ls
+   44  file /user/bin/ls
+   45  file /usr/bin/ls
+   46  file ali
+   47  grep "piit" /
+   48  grep "piit" /tmp/piit/
+   49  grep -r "piit" /tmp/piit
+   50  grep -r
+   51  grep -r "piit" /tmp/piit
+   52  grep -ri "ec2*" /etc/passwd
+   53  usermood --help
+   54  usermod --help
+   55  usermod -l orange apple
+   56  usermod --help
+   57  sed -i 's/aws/azure/g' apple.txt
+   58  cat apple.txt
+   59  less apple.txt
+   60  head apple.txt
+   61  q
+   62  cat apple.txt
+   63  clear
+   64  head apple.txtr
+   65  head apple.txt
+   66  clear
+   67  tail apple.txt
+   68  clear
+   69  exit
+   70  clear
+   71  history
+[root@ip-172-31-20-148 ~]# ^C
